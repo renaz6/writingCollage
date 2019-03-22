@@ -4,8 +4,8 @@ import random
 import textwrap
 
 def main():
-    middlesexText = open("middlesexText").read().split()
-    shakespeareText = open("shakespeareText").read().split()
+    middlesexText = open("blackstar").read().split()
+    shakespeareText = open("uncleArthur").read().split()
     combinedText = middlesexText + shakespeareText
     finalText = random.sample(combinedText, 40)
     
